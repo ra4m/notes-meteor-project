@@ -1,0 +1,29 @@
+.boxed-view {
+  align-items: center; //responsible for vertical alignment
+  background: $boxed-view-overlay-bg;
+  display: flex;
+  height: 100vh;
+  justify-content: center; //responsible for horizontal alignment
+  width: 100vw;
+}
+
+.boxed-view__box {
+  background: $boxed-view-bg;
+  padding: 2.4rem;
+  text-align: center;
+  width: 24rem;
+}
+
+.boxed-view__form {
+  display: flex; // default flow of direction is from left to right
+  flex-direction: column; // so form elements are stacked on top of one another
+}
+
+.boxed-view--modal {
+  background: fade_out($boxed-view-overlay-bg, 0.3);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
