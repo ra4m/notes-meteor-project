@@ -1,7 +1,7 @@
 import React from 'react';
 import expect from 'expect';
 import { mount } from 'enzyme';
-
+import { Meteor } from 'meteor/meteor';
 import NoteListItem from './NoteListItem';
 
 if (Meteor.isClient) {
