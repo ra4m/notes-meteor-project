@@ -1,4 +1,5 @@
-@import './_variables';
+@import './_variables'; // Has to be first
+@import './mixins/media-query-mixins'; // Has to be second
 @import './_base';
 @import './components/_boxed-view';
 @import './components/button';
